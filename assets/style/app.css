@@ -1,11 +1,299 @@
+html,body
+{
+	font-family: "Microsoft YaHei";
+}
+.container
+{
+	width: 100%;
+	padding: 0;
+}
+.row
+{
+	margin: 0;
+}
+.header-background
+{
+	background: url("../images/h_bg.png") 0,0,no-repeat;
+}
 .header-top
 {
-	border-bottom: 1px solid #eeeeee;
+	border-bottom: 1px solid #755c38;
 }
 .header-top .navbar-nav>li>a
 {
 	display: block;
-	height: 50px;
+	height: 60px;
 	box-sizing: content-box;
-	line-height: 50px;
+	line-height: 60px;
+	color: #fff;
 }
+.header-search .jumbotron
+{
+	border-radius: 0!important;
+	margin: 0;
+	background: none;
+}
+.jumbotron-center
+{
+	width: 50%;
+	height: 120px;
+	text-align: center;
+	color: #fff;
+	margin: 60px auto;
+}
+.jumbotron-center .input-group> *
+{
+	padding: 12px!important;
+	background: #fff;
+}
+.jumbotron-center>h2
+{
+	font-weight: normal!important;
+	font-family: "宋体";
+}
+.jumbotron-center .input-group .form-control
+{
+	height: 100%;
+	border-right: 1px solid transparent!important;
+}
+.jumbotron-center .input-group .input-group-addon.end
+{
+	padding: 6px 12px!important;
+}
+.jumbotron-center .input-group .start  .glyphicon
+{
+	font-size: 12px!important;
+}
+.jumbotron-center .input-group .input-group-addon.end i
+{
+	font-size: 20px;
+	color: #ff9600;
+}
+.nav-center
+{
+	background: #fff;
+}
+.nav-center  .nav-center-cl
+{
+	margin: 0 auto;
+	width: 65%;
+}
+.nav-center  .nav-center-cl>div
+{
+	text-align: center;
+	margin:60px 0;
+}
+.nav-center  .nav-center-cl p{
+	margin: 10px 0;
+}
+.nav-center  .nav-center-cl i
+{
+	color: #ff9600;
+	font-size: 2.5em;
+}
+
+.book-list .jumbotron
+{
+	padding: 30px 100px;
+	border-radius: 0!important;
+}
+.jumbotron h2
+{
+	text-align: center;
+	font-weight: normal;
+	font-family: "宋体";
+}
+.jumbotron .underline
+{
+	border: 1px solid #ff9600;
+	width: 60px;
+	margin: 0 auto;
+}
+.book-list .book
+{
+	margin-top: 30px;
+}
+.book-list .jumbotron .caption > *
+{
+	text-align: center;
+}
+.book-list .jumbotron .caption > h6
+{
+	color: #ddd;
+}
+.book-list .jumbotron .thumbnail
+{
+	border:0;
+}
+.book-list .jumbotron
+{
+	margin: 0;
+	padding-bottom: 18px;
+}
+.book-list .book .col-md-3
+{
+	width: 20%;
+	padding: 0 6px;
+}
+.book-list-bottom
+{
+	text-align: center;
+	margin: 0 auto;
+}
+.book-list-bottom .pagination li a
+{
+	background: transparent;
+	border: 0;
+	font-weight: 500;
+	font-size: 15px;
+	color: #999;
+}
+.book-list-bottom .pagination
+{
+	margin: 5px 0;
+}
+.book-list-bottom .pagination li .label
+{
+	line-height: 20px;
+	border-radius: 3em;
+	font-size: 10px;
+	padding:3px 20px;
+}
+.pagination>.active>a:hover,.pagination>.active>a:focus,.book-list-bottom .pagination li a:hover
+{
+	background: transparent;
+}
+.hot-book .jumbotron ,.read-ability .jumbotron
+{
+	background: #fff;
+	border-radius: 0;
+	margin-bottom: 0;
+}
+.micro-classroom .jumbotron
+{
+	margin-bottom: 0;
+	border-radius: 0;
+}
+.hot-book .jumbotron .book-commend,.read-ability .read-ability-center
+{
+	margin: 0 auto;
+	width: 80%;
+	margin-top: 30px!important;
+}
+.hot-book .jumbotron .book-commend ul.list-group
+{
+	border: 1px solid #dddddd;
+	padding: 30px;
+}
+.hot-book .jumbotron .book-commend  .list-group-item
+{
+	border:  0;
+}
+.hot-book .jumbotron .book-commend  .list-group-item h3
+{
+	margin: 5px;
+
+}
+.hot-book .jumbotron .book-commend  .list-group-item .badge
+{
+	background: transparent;
+	border: 1px solid #999;
+	color: #999;
+	font-weight: normal;
+	margin-top: 10px;
+}
+.hot-book .jumbotron .book-commend  .list-group-item .col-md-3
+{
+	padding: 0 1px;
+	width: 16.6%;
+}
+.hot-book .jumbotron .book-commend  .list-group-item .col-md-3 .thumbnail
+{
+	margin: 0;
+	border: 1px solid #f6f6f6;
+}
+.micro-classroom .jumbotron .row,.read-ability .jumbotron .row
+{
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+.micro-classroom .micro-classroom-right h3
+{
+	height: 50px;
+	line-height: 50px;
+	font-size: 30px;
+	font-family: "宋体";
+	margin: 30px 0;
+}
+.micro-classroom .micro-classroom-right h3 i
+{
+	padding-top: 2px;
+	font-size: 28px;
+	color: #ff9600;
+}
+.micro-classroom .micro-classroom-right p
+{
+	font-size: 14px;
+}
+.read-ability .read-ability-center h5
+{
+	border-left: 2px solid #ff9600;
+	padding-left: 5px;
+	font-weight: bold;
+	margin: 15px 0;
+	font-size: 16px;
+}
+.read-ability .read-ability-center p
+{
+	font-size: 14px;
+}
+.drifting-books .jumbotron
+{
+	border-radius: 0;
+	margin: 0 auto;
+}
+.drifting-books .drifting-books-center
+{
+	width: 100%;
+	margin-top: 30px;
+}
+.drifting-books .drifting-books-center img
+{
+	margin-left: 25%;
+}
+.row.footer
+{
+	position: relative;
+	background: #323232;
+	padding: 30px 60px;
+	font-size: 15px;
+}
+.row.footer .footer-center
+{
+	margin: 0 auto;
+	width: 80%;
+}
+.row.footer .footer-center>div
+{
+	text-align: left;
+	width: 20%;
+	color: #fff;
+}
+.row.footer .icp
+{
+	position: absolute;
+	color: #939393;
+	top:60%;
+	left:40%;
+}
+
+
+
+
+
+
+
+
+
+
