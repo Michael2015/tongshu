@@ -26,6 +26,7 @@ html,body
 	box-sizing: content-box;
 	line-height: 60px;
 	color: #fff;
+	background: transparent!important;
 }
 .header-search .jumbotron
 {
@@ -287,13 +288,55 @@ html,body
 	top:60%;
 	left:40%;
 }
-
-
-
-
-
-
-
-
-
-
+.modal .modal-dialog
+{
+	margin-top: 10%;
+	width: 300px;
+}
+.modal .modal-dialog .modal-content
+{
+	border-radius: 0!important;
+}
+.modal .modal-dialog .modal-title
+{
+	text-align: center;
+}
+.modal .modal-dialog .modal-title i
+{
+	font-size: 16px;
+}
+.modal .modal-dialog .modal-body label
+{
+	font-weight: normal;
+}
+.modal .modal-dialog .modal-body input
+{
+	border-radius: 0;
+}
+.modal .modal-dialog .modal-body .label-right
+{
+	float: right;
+}
+.modal .modal-dialog .modal-body .label-right a
+{
+	color: #ff9600;
+	text-decoration:underline
+}
+.modal .modal-dialog .modal-body .login_in
+{
+	margin: 0 auto;
+	width: 70%;
+}
+.modal .modal-dialog .modal-body .login_in .btn
+{
+	border-radius: 2em;
+}
+.modal .modal-dialog .modal-body>p
+{
+	text-align: center;
+	color: #999999;
+}
+hr
+{
+	border: 1px solid #eee;
+}
