@@ -36,7 +36,7 @@
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="#">绘本</a></li>
 						<li><a href="#">绘本馆</a></li>
-						<li><a href="#"><span onclick="login_act();">登录</span> | <span>注册</span></a></li>
+						<li><a href="#"><span onclick="login_act();">登录</span> | <span onclick="register_act();">注册</span></a></li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">发现更多 <span class="caret"></span></a>
 							<ul class="dropdown-menu">
@@ -445,7 +445,7 @@
 </div>
 
 <!-- 登录模态框 -->
-<div id="home-login-modal" class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div id="home-login-modal" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 	<div class="modal-dialog" role="document">
 		<div class="modal-content">
 			<div class="modal-header">
@@ -456,11 +456,11 @@
 				<form>
 					<div class="form-group">
 						<label for="exampleInputEmail1">手机号码</label>
-						<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+						<input type="email" class="form-control" id="exampleInputEmail1" placeholder="请输入您的手机号">
 					</div>
 					<div class="form-group">
 						<label for="exampleInputPassword1">登录密码</label>
-						<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+						<input type="password" class="form-control" id="exampleInputPassword1" placeholder="请输入您的密码">
 					</div>
 					<div class="form-group">
 							<div class="checkbox">
@@ -484,6 +484,42 @@
 	</div>
 </div>
 <!-- 登录模态框 -->
+<!-- 模态框 -->
+<div id="home-register-modal" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel"><i class="glyphicon glyphicon-user"></i> 注册</h4>
+			</div>
+			<div class="modal-body">
+				<form>
+					<div class="form-group">
+						<label for="exampleInputEmail1">手机号码</label>
+						<input type="email" class="form-control" id="exampleInputEmail1" placeholder="请输入您正确的手机号">
+					</div>
+					<label>验证码</label>
+					<div class="input-group form-group">
+						<input type="text" class="form-control" placeholder="请输入验证码">
+						<span class="input-group-addon send_code">发送验证码</span>
+					</div>
+					<div class="form-group">
+						<label for="exampleInputPassword1">设置密码</label>
+						<input type="password" class="form-control" id="exampleInputPassword1" placeholder="请输入您的密码">
+					</div>
+					<div class="form-group">
+						<div class="login_in">
+							<button type="button" class="btn btn-warning btn-sm btn-block">　　注　　册　　</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- 登录模态框 -->
+
+
 <!--[if lt IE 9]>
 <script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
 <script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>

@@ -340,3 +340,9 @@ hr
 {
 	border: 1px solid #eee;
 }
+.modal .modal-dialog .modal-body .send_code
+{
+	border-radius: 0;
+	background: #ff9600;
+	color: #ffffff;
+}
