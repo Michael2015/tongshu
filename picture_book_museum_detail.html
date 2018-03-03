@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="description" content="绘本详情">
 	<meta name="keywords" content="绘本详情">
-	<title>绘本详情页</title>
+	<title>绘本馆详情页</title>
 	<!-- Set render engine for 360 browser -->
 	<meta name="renderer" content="webkit">
 	<!-- No Baidu Siteapp-->
@@ -40,8 +40,8 @@
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-5">
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="#"><img src="./assets/images/user_avatar.png"> 第一只蜗牛</a></li>
-						<li><a href="#" class="active"><span>绘本</span></a></li>
-						<li><a href="#">绘本馆</a></li>
+						<li><a href="#">绘本</a></li>
+						<li><a href="#" class="active"><span>绘本馆</span></a></li>
 						<li><a href="#">个人中心</a></li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">发现更多 <span class="caret"></span></a>
@@ -57,6 +57,66 @@
 		</div>
 		<!-- HEADER-->
 	</div>
+	<!-- 轮播图 -->
+	<div class="row carousel">
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
+				<li data-target="#carousel-example-generic" data-slide-to="1" class="active"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
+			</ol>
+			<div class="carousel-inner" role="listbox">
+				<div class="item">
+					<img width="100%" data-src="holder.js/900x500/auto/#777:#555/text:First slide" alt="First slide [900x500]" src="./assets/images/carousel_1.png" data-holder-rendered="true">
+				</div>
+				<div class="item active">
+					<img  width="100%" data-src="holder.js/900x500/auto/#777:#555/text:First slide" alt="First slide [900x500]" src="./assets/images/carousel_1.png" data-holder-rendered="true"></div>
+				<div class="item">
+					<img width="100%" data-src="holder.js/900x500/auto/#777:#555/text:First slide" alt="First slide [900x500]" src="./assets/images/carousel_1.png" data-holder-rendered="true">
+				</div>
+			</div>
+			<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+
+			<div class="nav-on-carousel">
+				<div class="nav-on-carousel-up">
+					<span class="label label-default">中文</span>
+					<span class="label label-default">英文</span>
+					<span class="label label-default">活动</span>
+					<span class="label label-default">课程</span>
+				</div>
+				<div class="nav-on-carousel-down">
+					<span class="label label-default"><i class="glyphicon glyphicon-thumbs-up"></i> 赞一下</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 轮播图 -->
+	<!-- 蒲公英儿童绘本馆 -->
+	<div class="row museum-tab my-grid">
+            <h4 class="caption text-center">蒲公英儿童绘本馆</h4>
+		    <div class="jumbotron">
+				<div class="row">
+					<div class="col-md-12">
+						<ul class="nav nav-pills">
+							<li role="presentation"><a href="#" class="active">馆藏绘本(10)</a></li>
+							<li role="presentation"><a href="#">书单推荐(5)</a></li>
+							<li role="presentation"><a href="#">馆内活动(15)</a></li>
+							<li role="presentation"><a href="#">馆内课程(0)</a></li>
+							<li role="presentation"><a href="#">借阅服务(5)</a></li>
+							<li role="presentation"><a href="#">关于绘本馆</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+	</div>
+	<!-- 蒲公英儿童绘本馆 -->
 	<!-- 商品属性  -->
 	<div class="row goods-attribute my-grid">
 		<div class="jumbotron">
@@ -91,6 +151,7 @@
 							</ul>
 						</div>
 					</div>
+					<div class="col-md-12"><div class="book-attribute-subscribe">我要借阅</div></div>
 				</div>
 			</div>
 		</div>
@@ -124,84 +185,11 @@
 		</div>
 	</div>
 	<!--  second -->
-	<!--  绘本机构 -->
-	<div class="row my-grid book-organization">
-		<div class="jumbotron">
-			<div class="row">
-				<h3>拥有此绘本的机构</h3>
-				<div class="col-md-12">
-					<h3>距离最近</h3>
-					<div class="book-organization-up">
-						<ul>
-							<li>
-								<img src="./assets/images/my_companies.jpg" width="70" height="70">
-								<h4>逗乐儿</h4>
-								<p>江门</p>
-							</li>
-							<li>
-								<img src="./assets/images/my_companies.jpg" width="70" height="70">
-								<h4>逗乐儿</h4>
-								<p>江门</p>
-							</li>
-							<li>
-								<img src="./assets/images/my_companies.jpg" width="70" height="70">
-								<h4>逗乐儿</h4>
-								<p>江门</p>
-							</li>
-							<li>
-								<img src="./assets/images/my_companies.jpg" width="70" height="70">
-								<h4>逗乐儿</h4>
-								<p>江门</p>
-							</li>
-						</ul>
-					</div>
-					<div class="cut-off"></div>
-					<h3>其他</h3>
-					<div class="book-organization-up">
-						<ul>
-							<li>
-								<img src="./assets/images/my_companies.jpg" width="70" height="70">
-								<h4>逗乐儿</h4>
-								<p>江门</p>
-							</li>
-							<li>
-								<img src="./assets/images/my_companies.jpg" width="70" height="70">
-								<h4>逗乐儿</h4>
-								<p>江门</p>
-							</li>
-							<li>
-								<img src="./assets/images/my_companies.jpg" width="70" height="70">
-								<h4>逗乐儿</h4>
-								<p>江门</p>
-							</li>
-							<li>
-								<img src="./assets/images/my_companies.jpg" width="70" height="70">
-								<h4>逗乐儿</h4>
-								<p>江门</p>
-							</li>
-							<li>
-								<img src="./assets/images/my_companies.jpg" width="70" height="70">
-								<h4>逗乐儿</h4>
-								<p>江门</p>
-							</li>
-							<li>
-								<img src="./assets/images/my_companies.jpg" width="70" height="70">
-								<h4>逗乐儿</h4>
-								<p>江门</p>
-							</li>
-						</ul>
-					</div>
-					<div class="check-all"><span>查看全部</span></div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!--  绘本机构 -->
 	<!--  书籍详细内容-->
-	<div class="row my-grid book-detail">
+	<div class="row my-grid book-detail book-detail2">
 		<div class="jumbotron">
 			<div class="row">
-				<p class="bg-primary">内容摘要<span>更多+</span></p>
+				<p class="bg-primary">内容简介<span>更多+</span></p>
 				<p class="bg-primary-2">儿童教育是指对儿童进行德育、智育、体育等方面的培养和训练。它是提高人口素质的重要环节。青春期到来以前的未成年人被称为儿童或少年，他们在思想、性格、智力、体魄等方面的可塑儿童教育性很强。儿童教育是整个教育事业的重要基础。在古代社会中，教育儿童的职能主要是由家庭承担的。近代的儿童教育有逐渐社会化的趋势，许多国家对学龄儿童都实行了义务教育的制度。但是，家庭教育仍然十分重要。</p>
 			</div>
 			<div class="row">
@@ -234,57 +222,51 @@
 		</div>
 	</div>
 	<!--  书籍详细内容-->
+	<!--  绘本机构 -->
+	<div class="row my-grid book-organization book-organization2">
+		<div class="jumbotron">
+			<div class="row">
+				<h3>最近读过这本书的人</h3>
+				<div class="col-md-12">
+					<div class="book-organization-up">
+						<ul>
+							<li>
+								<img src="./assets/images/my_companies.jpg" width="70" height="70">
+								<h4>逗乐儿</h4>
+								<p>江门</p>
+							</li>
+							<li>
+								<img src="./assets/images/my_companies.jpg" width="70" height="70">
+								<h4>逗乐儿</h4>
+								<p>江门</p>
+							</li>
+							<li>
+								<img src="./assets/images/my_companies.jpg" width="70" height="70">
+								<h4>逗乐儿</h4>
+								<p>江门</p>
+							</li>
+							<li>
+								<img src="./assets/images/my_companies.jpg" width="70" height="70">
+								<h4>逗乐儿</h4>
+								<p>江门</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--  绘本机构 -->
 	<!-- 提交评论 -->
 	<div class="row my-grid post-comment">
 		<div class="jumbotron">
-			<div class="row post-panel">
+			<div class="row post-panel post-panel2">
 				<div class="col-md-12">
 					<div class="col-md-9">
 						关于这本书，我想说。。。
 					</div>
 					<div class="col-md-3">
 						<span>提交留言 >></span>
-					</div>
-				</div>
-			</div>
-			<div class="row comment">
-				<div class="col-md-12">
-					<div class="comment-avatar">
-						<img src="./assets/images/author.png">
-						<span>王小姐</span>
-						<span class="fl-right"><i>2017.02.12</i></span>
-					</div>
-					<p>这套书真的很棒，适合3岁左右的孩子，对纠正坏习惯，培养好习惯都有很好的帮助。</p>
-					<div class="comment-avatar comment-avatar-2">
-						<span class="good"><i class="glyphicon glyphicon-thumbs-up"></i> 赞</span>
-						<span>0个赞</span>
-						<span class="good fl-right-response">回应</span>
-					</div>
-				</div>
-				<div class="col-md-12">
-					<div class="comment-avatar">
-						<img src="./assets/images/author.png">
-						<span>吃草的羊</span>
-						<span class="fl-right"><i>2017.02.12</i></span>
-					</div>
-					<p>孩子不需要考验，而需要分担；孩子不需要冷落，而需要疼爱；孩子不需要说教，而需要分享；孩子不需要责骂，而需要理解；孩子不需要给予希望，希望为他本身就是希望</p>
-					<div class="comment-avatar comment-avatar-2">
-						<span class="good"><i class="glyphicon glyphicon-thumbs-up"></i> 赞</span>
-						<span>0个赞</span>
-						<span class="good fl-right-response">回应</span>
-					</div>
-				</div>
-				<div class="col-md-12">
-					<div class="comment-avatar">
-						<img src="./assets/images/author.png">
-						<span>吃草的羊</span>
-						<span class="fl-right"><i>2017.02.12</i></span>
-					</div>
-					<p>孩子不需要考验，而需要分担；孩子不需要冷落，而需要疼爱；孩子不需要说教，而需要分享；孩子不需要责骂，而需要理解；孩子不需要给予希望，希望为他本身就是希望</p>
-					<div class="comment-avatar comment-avatar-2">
-						<span class="good"><i class="glyphicon glyphicon-thumbs-up"></i> 赞</span>
-						<span>0个赞</span>
-						<span class="good fl-right-response">回应</span>
 					</div>
 				</div>
 			</div>
