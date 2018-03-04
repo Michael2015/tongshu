@@ -220,7 +220,7 @@ html,body
 .hot-book .jumbotron .book-commend  .list-group-item .col-md-3
 {
 	padding: 0 1px;
-	width: 16.6%;
+	width: 60px;
 }
 .hot-book .jumbotron .book-commend  .list-group-item .col-md-3 .thumbnail
 {
@@ -1068,6 +1068,94 @@ hr
 {
 	padding: 0!important;
 }
+.picture-book-list .picture-book-list-cls
+{
+	margin: 30px 0;
+}
+.picture-book-list .picture-book-list-cls .col-md-3 h3
+{
+	height: 40px;
+	line-height: 40px;
+	margin: 0;
+}
+.picture-book-list .picture-book-list-cls .form-control
+{
+	width: 200px;
+	float: right;
+	margin-left: 20px;
+}
+.picture-book-list .picture-book-list-cls2
+{
+	margin-top: 0;
+	padding: 0;
+	margin-bottom: 0;
+}
+.picture-book-list-cls2 .col-md-3
+{
+	padding-left: 0;
+}
+.picture-book-list-cls2 .col-md-3 .thumbnail
+{
+	border: 0;
+	margin-bottom: 10px;
+}
+.picture-book-list-cls2 .col-md-3 .thumbnail img
+{
+	padding: 5px;
+	border: 1px solid #f6f6f6;
+	box-sizing: content-box;
+}
+.picture-book-list-cls2 .col-md-3 .thumbnail h4
+{
+	text-align: center;
+	font-size: 14px;
+}
+.picture-book-list-cls2 .col-md-3 .thumbnail p
+{
+	font-size: 14px;
+	color: #999999;
+	text-align: center;
+}
+.picture-book-list-cls2 .col-md-3 .thumbnail p span
+{
+	padding: 8px 16px;
+	border-radius: 2em;
+	background: #d1d1d1;
+	color: #fff;
+}
+.picture-book-list-cls2 .col-md-3 .thumbnail p span.active
+{
+	background: #ff9600;
+}
+.picture-book-list-cls2 .picture-book-list-page
+{
+	text-align: center;
+}
+.picture-book-list-page .pagination li a
+{
+	color: #000000;
+}
+.picture-book-list-page .pagination li.active a
+{
+	color: #fff;
+	background: #ff9600!important;
+	border: 1px solid #ff9600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
