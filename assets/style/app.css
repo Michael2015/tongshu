@@ -977,17 +977,97 @@ hr
 {
 	border: 0;
 }
+.left-side  .header-img
+{
+	text-align: center;
+	padding: 15px 0;
+	font-size: 18px;
+}
+.left-side  .header-img2
+{
+	border-bottom: 1px solid #f6f6f6;
+}
+.left-side>.jumbotron>.row>.col-md-4
+{
+	margin-top: -40px;
+	background: #fff;
+	text-align: center;
+	padding: 0;
 
+}
+.left-side>.jumbotron>.row>.col-md-4 h4
+{
+	margin-bottom: 20px;
+}
+.left-side>.jumbotron>.row>.col-md-4 .row
+{
+	width: 100%;
+	padding: 0 30px 10px 30px;
+	border: 1px solid #f6f6f6;
+	margin-bottom: 20px;
+}
 
-
-
-
-
-
-
-
-
-
+.left-side>.jumbotron>.row>.col-md-4 p
+{
+	font-size: 14px;
+}
+.left-side>.jumbotron>.row>.col-md-4 .btn
+{
+	background: #ff9600;
+	font-size: 14px;
+	border: 0;
+}
+.left-side>.jumbotron>.row>.col-md-4 .btn-warning
+{
+	background: transparent;
+	border: 1px solid #f6f6f6;
+	color: #999;
+}
+.left-side>.jumbotron>.row>.col-md-4 .p-get
+{
+	margin: 10px 0;
+	color: #999999;
+}
+.left-side>.jumbotron>.row .borrow
+{
+	padding: 20px 0;
+}
+.left-side>.jumbotron>.row .borrow>div
+{
+	height: 245px;
+	line-height: 245px;
+	padding: 0;
+}
+.left-side>.jumbotron>.row .borrow>div>p
+{
+	line-height: 20px;
+}
+.left-side>.jumbotron>.row .borrow>div.col-md-10
+{
+	text-align: left;
+	color: #999999;
+	padding: 0 20px;
+}
+.left-side>.jumbotron>.row  p.p-get2
+{
+	margin-bottom: 0!important;
+}
+.left-side>.jumbotron>.row  p .circle
+{
+	height: 7px;
+	width: 7px;
+	border-radius: 2em;
+	background: #999999;
+	display: inline-block;
+}
+.left-side>.jumbotron>.row  p .circle.active
+{
+	background: #ff9600;
+}
+.left-side>.jumbotron .row.map
+{
+	padding: 0!important;
+}
 
 
 
